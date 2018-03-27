@@ -1,0 +1,298 @@
+2018-03-27 10:45:52,336 [Thread-7:9136] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-03-27 10:46:33,220 [Thread-8:7264] [django.request:52] [search:search_post] [INFO]- 192.168.58.196对3.3.3.3完成灌装
+2018-03-27 12:20:47,405 [Thread-3:2756] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonCode\webDemo\django_web\search.py", line 47, in search_post
+    linux_host.send('ls -l')
+  File "E:\pythonCode\webDemo\django_web\Linux.py", line 64, in send
+    ret = self.chan.recv(65535)
+  File "E:\python_code\venv\lib\site-packages\paramiko\channel.py", line 685, in recv
+    raise socket.timeout()
+timeout
+2018-03-27 12:23:36,710 [Thread-3:7508] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonCode\webDemo\django_web\search.py", line 47, in search_post
+    linux_host.send('ls -l')
+  File "E:\pythonCode\webDemo\django_web\Linux.py", line 64, in send
+    ret = self.chan.recv(65535)
+  File "E:\python_code\venv\lib\site-packages\paramiko\channel.py", line 685, in recv
+    raise socket.timeout()
+timeout
+2018-03-27 12:25:19,823 [Thread-3:8964] [django.request:58] [search:search_post] [INFO]- 192.168.58.196对3.3.3.3完成灌装
+2018-03-27 12:29:04,101 [Thread-2:6648] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonCode\webDemo\django_web\search.py", line 48, in search_post
+    linux_host.send('ls -l')
+  File "E:\pythonCode\webDemo\django_web\Linux.py", line 64, in send
+    ret = self.chan.recv(65535)
+  File "E:\python_code\venv\lib\site-packages\paramiko\channel.py", line 685, in recv
+    raise socket.timeout()
+timeout
+2018-03-27 12:30:10,516 [Thread-3:7380] [django.request:59] [search:search_post] [INFO]- 192.168.58.196对10.0.0.0完成灌装
+2018-03-27 12:33:36,512 [Thread-3:9084] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonCode\webDemo\django_web\search.py", line 47, in search_post
+    linux_host.send('ls -l', '[root@ ~]#')
+  File "E:\pythonCode\webDemo\django_web\Linux.py", line 64, in send
+    ret = self.chan.recv(65535)
+  File "E:\python_code\venv\lib\site-packages\paramiko\channel.py", line 685, in recv
+    raise socket.timeout()
+timeout
+2018-03-27 12:37:33,443 [Thread-3:8976] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonCode\webDemo\django_web\search.py", line 47, in search_post
+    linux_host.send('ls -l', r'[root@ ~]#')
+  File "E:\pythonCode\webDemo\django_web\Linux.py", line 64, in send
+    ret = self.chan.recv(65535)
+  File "E:\python_code\venv\lib\site-packages\paramiko\channel.py", line 685, in recv
+    raise socket.timeout()
+timeout
+2018-03-27 12:38:38,904 [Thread-3:8996] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonCode\webDemo\django_web\search.py", line 47, in search_post
+    linux_host.send('ls -l', r'[root@ ~]#')
+  File "E:\pythonCode\webDemo\django_web\Linux.py", line 64, in send
+    ret = self.chan.recv(65535)
+  File "E:\python_code\venv\lib\site-packages\paramiko\channel.py", line 685, in recv
+    raise socket.timeout()
+timeout
+2018-03-27 12:40:11,608 [Thread-3:1964] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonCode\webDemo\django_web\search.py", line 48, in search_post
+    linux_host.send('cd /home/wlc/code/Linux_IDS/build_31/', r'[root@ build_31]#')
+  File "E:\pythonCode\webDemo\django_web\Linux.py", line 64, in send
+    ret = self.chan.recv(65535)
+  File "E:\python_code\venv\lib\site-packages\paramiko\channel.py", line 685, in recv
+    raise socket.timeout()
+timeout
+2018-03-27 12:44:07,151 [Thread-3:8780] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonCode\webDemo\django_web\search.py", line 48, in search_post
+    linux_host.send('cd /home/wlc/code/Linux_IDS/build_31/', r'[root@ build_31]#')
+  File "E:\pythonCode\webDemo\django_web\Linux.py", line 56, in send
+    p = re.compile(r'+finish+')
+  File "E:\python_code\venv\lib\re.py", line 194, in compile
+    return _compile(pattern, flags)
+  File "E:\python_code\venv\lib\re.py", line 251, in _compile
+    raise error, v # invalid expression
+error: nothing to repeat
+2018-03-27 12:45:49,125 [Thread-3:3208] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonCode\webDemo\django_web\search.py", line 48, in search_post
+    linux_host.send('cd /home/wlc/code/Linux_IDS/build_31/', '[root@ build_31]#')
+  File "E:\pythonCode\webDemo\django_web\Linux.py", line 56, in send
+    p = re.compile(r'%s', finish)
+  File "E:\python_code\venv\lib\re.py", line 194, in compile
+    return _compile(pattern, flags)
+  File "E:\python_code\venv\lib\re.py", line 233, in _compile
+    bypass_cache = flags & DEBUG
+TypeError: unsupported operand type(s) for &: 'str' and 'int'
+2018-03-27 12:47:37,505 [Thread-3:8136] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonCode\webDemo\django_web\search.py", line 48, in search_post
+    linux_host.send('cd /home/wlc/code/Linux_IDS/build_31/', r'[root@ build_31]#')
+  File "E:\pythonCode\webDemo\django_web\Linux.py", line 56, in send
+    p = re.compile(r'%s', finish)
+  File "E:\python_code\venv\lib\re.py", line 194, in compile
+    return _compile(pattern, flags)
+  File "E:\python_code\venv\lib\re.py", line 233, in _compile
+    bypass_cache = flags & DEBUG
+TypeError: unsupported operand type(s) for &: 'str' and 'int'
+2018-03-27 12:51:01,818 [Thread-3:2712] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pythonCode\webDemo\django_web\search.py", line 48, in search_post
+    linux_host.send('cd /home/wlc/code/Linux_IDS/build_31/', r'[root@ build_31]#')
+  File "E:\pythonCode\webDemo\django_web\Linux.py", line 64, in send
+    ret = self.chan.recv(65535)
+  File "E:\python_code\venv\lib\site-packages\paramiko\channel.py", line 685, in recv
+    raise socket.timeout()
+timeout
+2018-03-27 12:54:14,645 [Thread-8:8248] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:/pythonCode/webDemo\django_web\search.py", line 48, in search_post
+    linux_host.send('cd /home/wlc/code/Linux_IDS/build_31/', r'[root@ build_31]#')
+  File "E:/pythonCode/webDemo\django_web\Linux.py", line 64, in send
+    ret = self.chan.recv(65535)
+  File "E:\python_code\venv\lib\site-packages\paramiko\channel.py", line 685, in recv
+    raise socket.timeout()
+timeout
+2018-03-27 12:55:47,072 [Thread-16:2516] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:/pythonCode/webDemo\django_web\search.py", line 48, in search_post
+    linux_host.send('cd /home/wlc/code/Linux_IDS/build_31/', r'[root@ build_31]#')
+  File "E:/pythonCode/webDemo\django_web\Linux.py", line 64, in send
+    ret = self.chan.recv(65535)
+  File "E:\python_code\venv\lib\site-packages\paramiko\channel.py", line 685, in recv
+    raise socket.timeout()
+timeout
+2018-03-27 12:56:51,539 [Thread-8:8316] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:/pythonCode/webDemo\django_web\search.py", line 49, in search_post
+    linux_host.send('ls -l')
+TypeError: send() takes exactly 3 arguments (2 given)
+2018-03-27 12:58:58,845 [Thread-8:8508] [django.request:60] [search:search_post] [INFO]- 192.168.58.196对192.168.58.142完成灌装
+2018-03-27 13:02:28,311 [Thread-7:1724] [django.request:59] [search:search_post] [INFO]- 192.168.58.196对192.168.58.145完成灌装
+2018-03-27 13:48:14,690 [Thread-8:8236] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:/pythonCode/webDemo\django_web\search.py", line 48, in search_post
+    linux_host.send('./build31.sh', r'build_31]#')
+  File "E:/pythonCode/webDemo\django_web\Linux.py", line 64, in send
+    ret = self.chan.recv(65535)
+  File "E:\python_code\venv\lib\site-packages\paramiko\channel.py", line 685, in recv
+    raise socket.timeout()
+timeout
+2018-03-27 14:09:30,621 [Thread-8:8236] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:/pythonCode/webDemo\django_web\search.py", line 48, in search_post
+    linux_host.send('./build31.sh', r'build_31]#')
+  File "E:/pythonCode/webDemo\django_web\Linux.py", line 64, in send
+    ret = self.chan.recv(65535)
+  File "E:\python_code\venv\lib\site-packages\paramiko\channel.py", line 685, in recv
+    raise socket.timeout()
+timeout
+2018-03-27 14:18:12,778 [Thread-15:7044] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:/pythonCode/webDemo\django_web\search.py", line 48, in search_post
+    linux_host.send('./build31.sh', r'build_31]#')
+  File "E:/pythonCode/webDemo\django_web\Linux.py", line 65, in send
+    ret = ret.decode('utf-8')
+  File "E:\python_code\venv\lib\encodings\utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xca in position 1557: invalid continuation byte
+2018-03-27 14:20:28,663 [Thread-8:9288] [django.request:58] [search:search_post] [INFO]- 192.168.58.196对192.168.58.142完成灌装
+2018-03-27 14:21:01,280 [Thread-12:10024] [django.request:58] [search:search_post] [INFO]- 192.168.58.196对192.168.58.142完成灌装
+2018-03-27 16:55:07,618 [Thread-16:8964] [django.request:58] [search:search_post] [INFO]- 192.168.58.196对192.168.58.142完成灌装
+2018-03-27 16:56:25,813 [Thread-20:2712] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:/pythonCode/webDemo\django_web\search.py", line 48, in search_post
+    linux_host.send('./build31.sh', r'build_31]#')
+  File "E:/pythonCode/webDemo\django_web\Linux.py", line 65, in send
+    ret = ret.decode('utf-8')
+  File "E:\python_code\venv\lib\encodings\utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xca in position 276: invalid continuation byte
+2018-03-27 17:00:54,132 [Thread-8:10176] [django.request:58] [search:search_post] [INFO]- 192.168.58.196对192.168.58.142完成灌装
+2018-03-27 17:22:00,644 [Thread-8:8744] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:/pythonCode/webDemo\django_web\search.py", line 48, in search_post
+    linux_host.send('./build31.sh', r'build_31]#')
+  File "E:/pythonCode/webDemo\django_web\Linux.py", line 64, in send
+    ret = self.chan.recv(65535)
+  File "E:\python_code\venv\lib\site-packages\paramiko\channel.py", line 685, in recv
+    raise socket.timeout()
+timeout
+2018-03-27 17:28:15,572 [Thread-8:10112] [django.request:58] [search:search_post] [INFO]- 192.168.58.196对192.168.58.142完成灌装
